@@ -1,0 +1,89 @@
+.card-list-container{
+    margin: auto;
+    padding: 1rem 2rem;
+    height: 100vh;
+    display: flex;
+
+    > .card-list{
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+
+        > .top{
+            width: 100%;
+            padding: 1rem;
+            background-color: #fff;
+            border: 1px solid #aaa;
+            border-radius: 3px;
+            margin-bottom: 1rem;
+
+            > .title{
+                font-size: 11px;
+            }
+
+            > .bottom{
+                display: flex;
+                font-size: 11px;
+                margin-top: .5rem;
+
+                > .money{
+                    margin-right: 1rem;
+                    padding-right: 1rem;
+                    position: relative;
+
+                    &:after{
+                        content: '•';
+                        right: 0;
+                        position: absolute;
+                    }
+                }
+            }
+        }
+
+        &:not(:first-child){
+            margin-left: 1rem;
+        }
+    }
+}
+
+.card{
+    border: 1px solid #aaa;
+    width: 300px;
+    padding: 1rem 1rem;
+    text-align: center;
+    border-radius: 3px;
+    background-color: #fff;
+    cursor: pointer;
+    position: relative;
+    user-select: none;
+
+    &:hover{
+        background-color: #eee;
+    }
+
+    // &:not(:first-child){
+        margin-bottom: 15px;
+    //}
+
+    &.isgrabbed{
+        position: absolute;
+        background-color: lighten(lightcyan, 1%);
+
+        &:hover{
+            background-color: #fff;
+        }
+    }
+
+    &.clicked{
+        background-color: #333;
+        color: #fff;
+    }
+
+    &.clone{
+        opacity: .7;   
+    }
+}
+
+.head{
+    height: 200px;
+}
