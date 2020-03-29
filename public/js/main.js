@@ -124,7 +124,7 @@ function organizeList(list, first = false) {
         $(previousList).each((index, element) => {
             if (element != grabbedCard) {
                 $(element).animate({
-                    top: "0px"
+                    top: ""
                 }, animSpeed)
             }
         })
@@ -149,7 +149,7 @@ function organizeList(list, first = false) {
             if (index < finalList.indexOf(grabbedCard)) {
                 grabbedMargin += parseInt($(element).css("height")) + parseInt($(element).css("margin-bottom"))
                 $(element).animate({
-                    top: `0px`
+                    top: ``
                 }, animSpeed)
             }
 
@@ -254,11 +254,11 @@ function dropCard() {
     $(defaultList).find(".card").each((index, element) => {
         $(element).css("top", "")
 
-        setTimeout(() => {
-            $(element).animate({
-                top: ""
-            })
-        }, 100)
+        // setTimeout(() => {
+        //     $(element).animate({
+        //         top: ""
+        //     })
+        // }, 100)
     })
 
 }
@@ -302,8 +302,6 @@ $(document).on("mouseup", (e) => {
     clearTimeout(holdMouseClick)
 
     var card = $(e.target).closest('.card')
-
-    console.log(card)
 
     var clickedOnCard = $(cardsSelector).toArray().some((value) => { return value == card[0] })
 

@@ -37,7 +37,16 @@
                 </li>
 
                 <li class="card">
-                    TESTE 2
+                    <div class="title">
+                        Negócio Juliana Web
+                    </div>
+                    <div class="client">
+                        Juliana Web
+                    </div>
+
+                    <div class="money">
+                        R$1.698
+                    </div>
                 </li>
 
             </div>
@@ -45,7 +54,7 @@
         </ul>
 
         <ul class="card-list">
-        <li class="top">
+            <li class="top">
                 <h3 class="title">Cliente em Potencial</h3>
                 <div class="bottom">
                     <div class="money">
@@ -61,11 +70,121 @@
             
 
                 <li class="card">
-                    TESTE 1
+                    <div class="title">
+                        Negócio Juliana Web
+                    </div>
+                    <div class="client">
+                        Juliana Web
+                    </div>
+
+                    <div class="money">
+                        R$1.698
+                    </div>
                 </li>
 
                 <li class="card">
-                    TESTE 2
+                    <div class="title">
+                        Negócio Juliana Web
+                    </div>
+                    <div class="client">
+                        Juliana Web
+                    </div>
+
+                    <div class="money">
+                        R$1.698
+                    </div>
+                </li>
+
+            </div>
+
+        </ul>
+
+        <ul class="card-list">
+            <li class="top">
+                <h3 class="title">Cliente em Potencial</h3>
+                <div class="bottom">
+                    <div class="money">
+                        R$ 52.230
+                    </div>
+                    <div class="negocios">
+                        33 negócios
+                    </div>
+                </div>
+            </li>
+
+            <div class="content">
+            
+
+                <li class="card">
+                    <div class="title">
+                        Negócio Juliana Web
+                    </div>
+                    <div class="client">
+                        Juliana Web
+                    </div>
+
+                    <div class="money">
+                        R$1.698
+                    </div>
+                </li>
+
+                <li class="card">
+                    <div class="title">
+                        Negócio Juliana Web
+                    </div>
+                    <div class="client">
+                        Juliana Web
+                    </div>
+
+                    <div class="money">
+                        R$1.698
+                    </div>
+                </li>
+
+            </div>
+
+        </ul>
+
+        <ul class="card-list">
+            <li class="top">
+                <h3 class="title">Cliente em Potencial</h3>
+                <div class="bottom">
+                    <div class="money">
+                        R$ 52.230
+                    </div>
+                    <div class="negocios">
+                        33 negócios
+                    </div>
+                </div>
+            </li>
+
+            <div class="content">
+            
+
+                <li class="card">
+                    <div class="title">
+                        Negócio Juliana Web
+                    </div>
+                    <div class="client">
+                        Juliana Web
+                    </div>
+
+                    <div class="money">
+                        R$1.698
+                    </div>
+                </li>
+
+                <li class="card">
+                    <div class="title">
+                        Negócio Juliana Web
+                    </div>
+                    <div class="client">
+                        Juliana Web
+                    </div>
+
+                    <div class="money">
+                        R$1.698
+                    </div>
                 </li>
 
             </div>
